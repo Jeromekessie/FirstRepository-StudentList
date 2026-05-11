@@ -27,7 +27,7 @@ public class StudentList {
         list[1] = s2;
         
         for(int i=0; i<list.length;i++)
-            System.out.println(list); // will print memmory allocation
+            System.out.println(list[i].getName()+" "+list[i].getSid() ); // will print memmory allocation
         
         
             

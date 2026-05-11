@@ -11,6 +11,7 @@ package studentlist;
 public class Student {
     private String name; //define all varible to pravate // ensapsulation wrapped with getter and setter 1st prinpacle
     private int sid;
+    private int semester;
 
     /**
      * @return the name
@@ -39,4 +40,19 @@ public class Student {
     public void setSid(int sid) {
         this.sid = sid;
     }
+
+    /**
+     * @return the semester
+     */
+    public int getSemester() {
+        return semester;
+    }
+
+    /**
+     * @param semester the semester to set
+     */
+    public void setSemester(int semester) {
+        this.semester = semester;
+    }
 }
+

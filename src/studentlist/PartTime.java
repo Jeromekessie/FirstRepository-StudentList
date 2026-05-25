@@ -9,7 +9,7 @@ package studentlist;
  * @author JeromeK
  */
 public class PartTime {
-    Pravate int semester;
+    private int semester;
     
     
 }

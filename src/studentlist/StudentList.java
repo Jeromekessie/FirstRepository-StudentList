@@ -12,6 +12,7 @@ public class StudentList {
 
     /**
      * @param args the command line arguments
+     * this is branch  code copy code
      */
     public static void main(String[] args) {
         // TODO code application logic here
@@ -27,7 +28,7 @@ public class StudentList {
         list[1] = s2;
         
         for(int i=0; i<list.length;i++)
-            System.out.println(list[i].getName()+" "+list[i].getSid() ); // will print memmory allocation
+            System.out.println(list[i].getName()+" "+list[i].getSid() ); // will print memmory allocation hello
         
         
             
